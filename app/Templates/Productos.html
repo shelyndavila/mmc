@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="">
+    <main class="container py-5" >
+    <section class="card card-body">
+            <h1 class="">Nuestros productos</h1>
+            <h6 class="">La empresa se dedica mayoritariamente al tratamiento de pescado y marisco fresco, por lo que la calidad, la higiene y la trazabilidad son aspectos fundamentales a tener en cuenta durante todo el proceso.</h6>
+            <hr class="mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="">- Pescados azules:</h4>
+                <h6 class="">o Atún patudo</h6>
+                <h6 class="">o Atún rojo</h6>
+                <h6 class="">o Jurel</h6>
+                <h6 class="">o Pez Espada</h6>
+                <h6 class="">o Sardina</h6>
+                <h6 class="">o Palometa</h6>
+                <h6 class="">o Rodaballo</h6>
+            </div>
+            <div class="col-md-4">
+                <img class="mx-auto d-block" src="{% static 'Martiño.jpg' %}" alt="500" width="500">
+            </div>
+            <hr class="mb-4">
+                <div class="col-md-4">
+                    <h4 class=""> -	Pescados blancos:</h4>
+                    <h6 class="">o	Gallo</h6>
+                    <h6 class="">o	Mendo</h6>
+                    <h6 class="">o	Rape</h6>
+                    <h6 class="">o	Besugo</h6>
+                    <h6 class="">o	Merluza</h6>
+                    <h6 class="">o	Lenguado</h6>
+                </div>
+                <div class="col-md-4">
+                    <img class="mx-auto d-block" src="{% static 'gallo.jpg' %}" alt="500" width="500">
+                </div>
+            <hr class="mb-4">
+                <div class="col-md-4">
+                    <h4 class="">  -	Crustáceo:</h4>
+                    <h6 class="">o	Nécora</h6>
+                    <h6 class="">o	Buey</h6>
+                    <h6 class="">o	Centolla</h6>
+                    <h6 class="">o	Camarón</h6>
+                    <h6 class="">o	Langostino</h6>
+                    <h6 class="">o	Percebe</h6>
+                </div>
+                <div class="col-md-4">
+                    <img class="mx-auto d-block" src="{% static 'langostino.jpg' %}" alt="500" width="500">
+                </div>
+            <hr class="mb-4">
+                <div class="col-md-4">
+                    <h4 class=""> -	Cefalópodos:</h4>
+                    <h6 class="">o	Calamar</h6>
+                    <h6 class="">o	Pulpo</h6>
+                    <h6 class="">o	Pota</h6>
+                </div>
+                <div class="col-md-4">
+                    <img class="mx-auto d-block" src="{% static 'pulpo.jpg' %}" alt="500" width="500">
+                </div>
+            <hr class="mb-4">
+                <div class="col-md-4">
+                    <h4 class=""> -	Bivalvos:</h4>
+                    <h6 class="">o	Almeja</h6>
+                    <h6 class="">o	Mejillón</h6>
+                    <h6 class="">o	Vieira</h6>
+                </div>
+                <div class="col-md-4">
+                    <img class="mx-auto d-block" src="{% static 'bivalvos.jpg' %}" alt="500" width="500">
+                </div>
+        </div>
+
+    </section>
+
+    </main>
+
+    </div>
+<footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-envelope me-3">Email: mmcampossl@gmail.com</h7>
+                </p>
+                <p>
+                    <h7 class="fas fa-phone me-3">Telefono: +34 672497638</h7>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Ubicación</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-home me-3">Puerto Pesquero - Nueva Lonja de Altura Nº44 36202 Vigo, Pontevedra</h7>
+
+                </p>
+
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary"></h5>
+                <img src="{% static 'mmc.jpg' %}" alt="200" width="200">
+            </div>
+            <hr class="mb-4">
+            <div class="text-center mb-2">
+                <p>
+                    Copyright:Todos los derechos reservados
+                    <a href="#">
+                        <strong class="text-primary">Miguel Martinez Campos S.L.</strong>
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+</footer>
+
+
+{% endblock %}

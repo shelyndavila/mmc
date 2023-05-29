@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(207, 208, 210);
+    color:rgb(39, 38, 36);
+}
+.navbar {
+    background-color:rgb(139, 227, 254);
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    color:rgb(40, 39, 39);
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(0, 67, 237);
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    padding: 20px 0;
+}
+.card{
+    background-color:antiquewhite;
+}

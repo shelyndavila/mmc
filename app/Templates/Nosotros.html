@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="">
+    <main class="container py-5" >
+    <section class="card card-body">
+        <h1 class="display-7 text-center">Nuestra Historia</h1>
+        <h6 class="text-center">Miguel Martínez Campos S.L. fue fundada en Vigo por una sola persona en 1989,
+            por tanto, cuenta con más de 30 años de historia en la industria pesquera. Actualmente,
+            es una de las empresas pioneras en la Lonja de Vigo, uno de los puertos pesqueros más importantes
+            a nivel mundial y principal puerto pesquero español. </h6>
+
+        <img class="mx-auto" src="{% static 'lonja.jpg' %}" alt="500" width="600">
+        <hr class="mb-4">
+        <h1 class="display-7 text-center">Actividad</h1>
+        <h6 class="text-center"> La empresa está especializada en la venta al por mayor y por menor de pescados y mariscos frescos,
+            aunque también comercializa producto congelado en menor medida. Su materia prima, principalmente,
+            procede de la primera venta realizada en la lonja viguesa, donde adquieren producto de calidad para poder satisfacer la demanda de sus clientes.
+            A si mismo, también cuenta con proveedores repartidos por España, Portugal y Francia,
+            lo que les permite ser más competitivos y disponer de una mayor variedad de productos.</h6>
+        <img class="mx-auto" src="{% static 'Actividad.jpg' %}" alt="500" width="600">
+        <hr class="mb-4">
+        <h1 class="display-7 text-center">Nuestros Valores</h1>
+        <h4 class="display-7 ">- Calidad</h4>
+        <h6 class="">Asegurar la calidad del producto es uno de nuestros objetivos principales, es por ello que día a día inspecionamos cada uno de los
+            productos que comercializamos garantizando su calidad</h6>
+        <h4 class="display-7 ">- Orientación al cliente</h4>
+        <h6 class="">Nos esforzamos constantemente para adecuarnos a las necesidades de nuestros clientes</h6>
+        <h4 class="display-7 ">- Responsabilidad medioambiental</h4>
+        <h6 class="">Estamos tratando de ser mas respetuosos con el medio ambiente reduciendo el consumo de
+            cajas de POREX a cajas reutilizables plásticas</h6>
+        <h4 class="display-7 ">- Pasión</h4>
+        <h6 class="">Nuestro equipo esta formado por trabajadores con gran experiencia en el sector que realizan su trabajo motivados y disfrutan del</h6>
+        <img class="mx-auto" src="{% static 'cajas.jpg' %}" alt="500" width="600">
+
+    </section>
+
+    </main>
+
+    </div>
+<footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-envelope me-3">Email: mmcampossl@gmail.com</h7>
+                </p>
+                <p>
+                    <h7 class="fas fa-phone me-3">Telefono: +34 672497638</h7>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Ubicación</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-home me-3">Puerto Pesquero - Nueva Lonja de Altura Nº44 36202 Vigo, Pontevedra</h7>
+
+                </p>
+
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary"></h5>
+                <img src="{% static 'mmc.jpg' %}" alt="200" width="200">
+            </div>
+            <hr class="mb-4">
+            <div class="text-center mb-2">
+                <p>
+                    Copyright:Todos los derechos reservados
+                    <a href="#">
+                        <strong class="text-primary">Miguel Martinez Campos S.L.</strong>
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+</footer>
+
+
+{% endblock %}

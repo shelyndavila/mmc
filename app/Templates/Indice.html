@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="text-center">
+    <main class="container py-5" >
+    <section class="card card-body">
+        <h1 class="display-7 text-center">Bienvenido a Miguel Martínez Campos S.L</h1>
+        <h4 class="text-center">Desde el equipo de Miguel Martínez Campos S.L estamos muy contentos de recibirte en nuestra página web, aquí podrás saber un poco más sobre nosotros, nuestros productos e historia. Asi como, nuestra ubcación y vías de contacto.</h4>
+        <h1 class="mt-5">
+        <img class="mx-auto" src="{% static 'grupo.JPG' %}" alt="500" width="600">
+        <h1 class="mb-5">
+        <div>
+            <a href="{% url 'Nosotros' %}" class="btn btn-primary" >
+                Sobre Nosotros
+            </a>
+            <a href="{% url 'Productos' %}" class="btn btn-primary" >
+                Nuestros Productos
+            </a>
+            <a href="{% url 'Login' %}" class="btn btn-primary" >
+                Iniciar Sesión
+            </a>
+        </div>
+    </section>
+
+    </main>
+
+    </div>
+
+<footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-envelope me-3">Email: mmcampossl@gmail.com</h7>
+                </p>
+                <p>
+                    <h7 class="fas fa-phone me-3">Telefono: +34 672497638</h7>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Ubicación</h5>
+                <hr class="mb-4">
+                <p>
+                    <h7 class="fas fa-home me-3">Puerto Pesquero - Nueva Lonja de Altura Nº44 36202 Vigo, Pontevedra</h7>
+
+                </p>
+
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary"></h5>
+                <img src="{% static 'mmc.jpg' %}" alt="200" width="200">
+            </div>
+            <hr class="mb-4">
+            <div class="text-center mb-2">
+                <p>
+                    Copyright:Todos los derechos reservados
+                    <a href="#">
+                        <strong class="text-primary">Miguel Martinez Campos S.L.</strong>
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+</footer>
+
+{% endblock %}

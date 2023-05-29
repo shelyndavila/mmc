@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+    Acceder a MMC
+</h1>
+
+{{error}}
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button>
+        Acceder
+    </button>
+</form>
+    <h6 class="mt-5">Este apartado solo esta disponible para los empleados de la empresa,
+        por tanto solo los usuarios autorizados podrán acceder a ella con el fin de realizar
+        tareas relativas al trabajo funcional de la empresa</h6>
+{% endblock %}
